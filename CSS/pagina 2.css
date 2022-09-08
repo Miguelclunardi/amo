@@ -1,0 +1,199 @@
+main {
+    width: 1200px;
+    margin: 0px auto 0px auto;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    border: 1px solid black;
+}
+
+footer {
+    width: 1200px;
+    margin: 0px auto 0px auto;
+    clear: left;
+    border: 1px solid #faed79;
+    background-color: #faed79;
+}
+
+header {
+    width: 1200px;
+    margin-bottom: 0px;
+    background-color: #faed79;
+}
+
+body {
+    width: 1200px;
+    font-family: Arial, Verdana, Tahoma, sans-serif, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#cntts {
+    margin-left: 20px;
+}
+
+#menu li {
+    display: inline;
+    margin: 40px;
+    background-image: url("../imagens/violao.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding: 0px 0px 0px 30px;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: black;
+    background-color: lightgray;
+
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+nav {
+    border: 1px solid lightgray;
+    width: 1200px;
+    clear: both;
+    background-color: lightgray;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+
+    width: 390px;
+    font-size: 50px;
+    overflow: auto;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+#logo {
+    width: 100px;
+    margin: 10px;
+    float: left;
+    margin-top: 25px;
+}
+
+#tx {
+    float: right;
+}
+
+#cntt {
+    background-color: #faed79;
+}
+
+#ft {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#direita,
+#esquerda {
+    width: 350px;
+    float: left;
+    margin: 20px;
+    min-height: 870px;
+    background-color: #faed79;
+    padding: 15px;
+}
+
+#meio {
+    width: 290px;
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+    min-height: 870px;
+    background-color: #faed79;
+    padding: 15px;
+}
+
+#iep {
+    width: 100%;
+    height: 100%;
+}
+
+.pl {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#form {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#botao {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 200px;
+}
+
+#botao:hover {
+    background-color: #faed79;
+}
+
+.form1 {
+    border-bottom: 1px, black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 280px;
+    background-color: #faed79;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+#form2 {
+    border-bottom: 1px, black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 280px;
+    background-color: #faed79;
+    font-size: 17px;
+    margin-top: none;
+}
+
+.label1 {
+    width: 10000px;
+}
+
+#orca {
+    font-size: 15px;
+    border-bottom: 1px, black;
+    border-top: 1px, black;
+    border-right: none;
+    border-left: none;
+    width: 280px;
+    background-color: #faed79;
+    margin-top: 3px;
+}
+
+#orca:focus {
+    background-color: lightgray;
+}
+
+.caixa {
+    font-size: 17px;
+}
+
+.pai {
+    width: 300px;
+    margin-top: 20px;
+
+}
