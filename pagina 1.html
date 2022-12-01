@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang='ptbr'>
+
+<head>
+    <title>Paulo Cezar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/pagina_inicial.css">
+</head>
+
+
+
+<body class="back">
+    <div class="container">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <header>
+            <div class="row">
+                <div class="col-0 col-md-3"></div>
+                <div class="col-12 col-md-6 mx-auto text-center">
+                    <img class="w-100"  src="imagens/ex5.png">
+                </div>
+                <div class="col-0 col-md-3"></div>
+            </div>
+
+
+            <nav class="navbar navbar-light navbar-expand-lg border-top border-dark border-bottom ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <div class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+                        <a class="  navbar-brand " href=" index.html">
+                            <img src="imagens/violao.png" width="30" height="30" class="d-inline-block align-top"
+                                alt="">
+                            Pagina inicial</a>
+
+                        <a class="navbar-brand" href="pagina 1.html">
+                            <img src="imagens/violao.png" width="30" height="30" class="d-inline-block align-top"
+                                alt="">
+                            Aulas de Música</a>
+                        <a class="navbar-brand" href="pagina 2.html">
+                            <img src="imagens/violao.png" width="30" height="30" class="d-inline-block align-top"
+                                alt="">
+                            Sonorização e Música ao Vivo</a>
+                        <a class="navbar-brand" href="pagina 3.html">
+                            <img src="imagens/violao.png" width="30" height="30" class="d-inline-block align-top"
+                                alt="">
+                            Corais</a>
+                        <a class="navbar-brand" href="pagina 4.html">
+                            <img src="imagens/violao.png" width="30" height="30" class="d-inline-block align-top"
+                                alt="">
+                            História</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <Main >
+            <div class="row ">
+                <div class="col-12 col-md-4 ">
+                    <article class="text-center f w-100 p-3 h-100">
+                        <h2>Saiba mais sobre as aulas</h2>
+                        <p class="pl">Paulo fundou a escola ARTE E CORDAS em 1987, no colégio Aparecida de Nova Prata,
+                            hoje
+                            se
+                            encontra
+                            na Av. Pres. Vargas, 1138 - Centro, Nova Prata - RS, 95320-000, sala 201, atende aos maiores
+                            de
+                            7 anos,
+                            nos mais variados estilos, desde músicas gaúchas a até bossa nova. A escola oferece aulas de
+                            violão,
+                            teclado e canto. Oferece
+                            também todos os materiais didaticos necessários. Mensalidade de 130,00 reais.
+                        </p>
+                        <img  class="w-100" src="imagens/ex13.jpeg">
+                    </article>
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <section class="f w-100 p-3 h-100">
+                        <h2>Formulario para marcar horario </h2>
+                        <form action="" method="">
+
+                            <div class="form-group font-weight-bold ">
+                                <label for="nome">Nome:</label>
+                                <input type="text" name="nome" id="nome" class="form-control bg-light" required
+                                    pattern="[aA-zZ\s]+$" required placeholder="Apenas letras">
+                            </div>
+                            <div class="form-group font-weight-bold">
+                                <label for="contato">Contato:</label>
+                                <input type="text" name="contato" id="contato" class="bg-light form-control" required
+                                    placeholder="Digite qualquer contato">
+                            </div>
+                            <div class="form-group font-weight-bold">
+                                <label for="cidade">Digite sua localização:</label>
+                                <input type="text" name="cidade" id="cidade" class="bg-light form-control" required
+                                    placeholder="Cidade e estado">
+                            </div>
+                            <P><b> Qual intrumento deseja ensaiar?</b> </P>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="violao" value="opcao1">
+                                <label class="form-check-label" for="violao">Violão</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="teclado" value="opcao1">
+                                <label class="form-check-label" for="teclado">Teclado</label>
+                            </div>
+                            <div class="form-check form-check-inline mb-3">
+                                <input class="form-check-input" type="checkbox" id="canto" value="opcao2">
+                                <label class="form-check-label" for="canto">Canto</label>
+                            </div>
+
+                            <p>
+                               <b> Qual sua idade?</b>
+                            </p>
+    
+                            <div class="form-check form-check">
+                                <input class="form-check-input" type="radio" name="idade" id="idade7_12" value="7-12">
+                                <label class="form-check-label" for="idade7_12">De 7 a 12 anos</label>
+                              </div>
+                              <div class="form-check form-check">
+                                <input class="form-check-input" type="radio" name="idade" id="idade13_18" value="13-18">
+                                <label class="form-check-label" for="idade13_18">De 13 a 18 anos</label>
+                              </div>
+                              <div class="form-check form-check">
+                                <input class="form-check-input mb-4" type="radio" name="idade" id="idade+" value="19+">
+                                <label class="form-check-label mb-4" for="idade+">19+ anos</label>
+                              </div>
+                         
+                         
+                            <div class="form-group font-weight-bold">
+                                <label for="dia">Qual dia de semana voce gostaria?</label>
+                                <select class="form-control bg-light " id="dia">
+                                    <option>Segunda-feira</option>
+                                    <option>Terca-feira </option>
+                                    <option>Quarta-feira</option>
+                                    <option>Quinta-feira</option>
+                                    <option>Sexta-Feira</option>
+                                </select>
+                            </div>
+                            <input type="submit" class="btn btn-dark">
+
+                        </form>
+
+
+                        </article>
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <section class="f w-100 p-3 h-100">
+                        <img class="w-100"  src="imagens/ex14.jpg">
+                        <img class="w-100"  src="imagens/ex17.jpg">
+                        <img class="w-100"  src="imagens/mg.png">
+                    </section>
+                </div>
+
+        </Main>
+        <footer class="border-top border-dark border-bottom">
+
+
+            <p>
+                <a class="btn btn-primary border border-dark bg-dark" data-toggle="collapse" href="#collapseExample"
+                    role="button" aria-expanded="false" aria-controls="collapseExample"></aclass>>CONTATOS</a>
+
+            </p>
+            <div class="collapse f" id="collapseExample">
+                <div class="card card-body f">
+                    <address>
+                        <ul>
+                            <li> <a id="cntt" href="mailto:pcsomluzimagem@gmail.com">
+                                    Enviar e-mail para Paulo Cezar Lunardi
+                                </a></li>
+                           <p> </p>
+
+                            <li>
+                                Número de telefone: 54 996340399
+                               <p> </p>
+                            </li>
+                            <li>
+                                Produzido por: Miguel Camargo Lunardi
+                               <p> </p>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+
+        </footer>
+</body>
+
+</html>
